@@ -1,4 +1,4 @@
-# [CVPR-2024] LEAD: Learning Decomposition for Source-free Universal Domain Adaptation
+# [[CVPR-2024] LEAD: Learning Decomposition for Source-free Universal Domain Adaptation](https://arxiv.org/abs/2403.03421)
 
 ## Introduction
 The main challenge for Source-free Universal Domain Adaptation (SF-UniDA) is determining whether covariate-shifted samples belong to target-private unknown categories. Existing methods tackle this either through hand-crafted thresholding or by developing time-consuming iterative clustering strategies. In this paper, we propose a new idea of LEArning Decomposition (LEAD), which decouples features into source-known and -unknown components to identify target-private data.  Technically, LEAD initially leverages the orthogonal decomposition analysis for feature decomposition. Then, LEAD builds instance-level decision boundaries to adaptively identify target-private data. Extensive experiments across various UniDA scenarios have demonstrated the effectiveness and superiority of LEAD. Notably, in the OPDA scenario on VisDA dataset, LEAD outperforms GLC by 3.5\% overall H-score and reduces 75\% time to derive pseudo-labeling decision boundaries.
@@ -72,7 +72,7 @@ bash ./scripts/train_target_PDA.sh
 ## Citation
 If you find our codebase helpful, please star our project and cite our paper:
 ```
-@inproceedings{sanqing2023LEAD,
+@inproceedings{sanqing2024LEAD,
   title={LEAD: Learning Decomposition for Source-free Universal Domain Adaptation},
   author={Qu, Sanqing and Zou, Tianpei and He, Lianghua and Röhrbein, Florian and Knoll, Alois and Chen, Guang and Jiang, Changjun},
   booktitle={CVPR},
