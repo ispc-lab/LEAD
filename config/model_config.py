@@ -70,7 +70,7 @@ def build_args():
         elif args.target_label_type == "OSDA":
             args.source_private_class_num = 0
             if args.target_private_class_num is None:
-                args.target_private_class_num = 10
+                args.target_private_class_num = 11
             
         elif args.target_label_type == "OPDA":
             args.source_private_class_num = 10
